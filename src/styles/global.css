@@ -1,0 +1,7 @@
+/*
+ * We are creating a global.css file because apparently SCSS files 
+ * do not support loading the TailwindCSS library.
+ */
+
+/* tailwindcss library */
+@import 'tailwindcss';
