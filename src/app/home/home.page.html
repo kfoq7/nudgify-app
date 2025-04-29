@@ -1,23 +1,15 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title> Blank </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>
-      Start with Ionic
-      <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components"
-        >UI Components</a
-      >
+<ion-content [fullscreen]="true" class="relative">
+  <img src="../assets/bg.png" class="absolute inset-0 w-full h-full object-cover z-0" />
+  <div class="relative z-20 text-white flex flex-col items-center justify-end h-full px-6 py-20">
+    <h1 class="text-6xl font-bold mb-4 text-center">Orden, Control y Resultados</h1>
+    <p class="mb-6 text-center text-[#a2a2a2]">
+      Gestiona ventas, productos y reportes con facilidad y estilo.
     </p>
+    <button
+      class="bg-[#c67c4e] button font-bold hover:bg-[#b16a3f] text-white"
+      routerLink="/auth/login"
+    >
+      Ir al Panel
+    </button>
   </div>
 </ion-content>
